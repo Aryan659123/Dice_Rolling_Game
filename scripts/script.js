@@ -62,7 +62,7 @@ const switchplayer = function(){
   if(playing){
     const x = Math.trunc(Math.random() * 6) + 1;
     dice.classList.remove('hidden');
-    dice.src = `dice-${x}.png`;
+    dice.src = `styles/images/dice-${x}.png`;
 
     if (x !== 1) {
       currentscore += x;
